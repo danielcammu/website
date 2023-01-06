@@ -54,6 +54,14 @@ url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"
         padding-top: 5px;
         margin-left: 20px;
     }
+    .cell {
+        background-color: white;
+    }
+    .table {
+        border-width: thin;
+        border-style: solid;
+        border-color: black;
+    }
 </style>
 </head>
 <body>
@@ -108,12 +116,28 @@ url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf"
         <td>3/5</td>
     </tr>
     <tr>
-        <td>Truth or<br>Consequences NM</td>
-        <td>August9th</td>
-        <td>93</td>
-        <td>4,242 ft</td>
-        <td>7,289</td>
-        <td>5/5</td>
+        <td rowspan="2">Truth or<br>Consequences NM</td>
+        <td class="center">August9th</td>
+        <td class="center">93</td>
+        <td rowspan="2" class="right">4,242 ft</td>
+        <td rowspan="2" class="right">7,289</td>
+        <td class="center">5/5</td>
+    </tr>
+    <tr>
+        <td class="center">August 27th</td>
+        <td class="center">98</td>
+        <td>
+            <table class="table">
+                <tr>
+                    <th class="cell">Tess</th>
+                    <td>5/5</td>
+                </tr>
+                <tr>
+                    <th class="cell">Tony</th>
+                    <td>4/5</td>
+                </tr>
+            </table>
+        </td>
     </tr>
     <tr class="cellcolor">
         <td>Why, AZ</td>
