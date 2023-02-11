@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pazza Form</title>
+<style>
+        body{
+                background-color: antiquewhite;
+                margin: 10px, 10px,;
+                border: 10px, 10px, 10px, 10px;
+                border-color: blue;
+                border-style: groove;
+                padding: 10px, 10px, 10px, 10px;
+        }
+</style>
+</head>
+<body>
+<h1>Pizza Form</h1>
+        <fieldset>
+        <legend>Personal Info</legend>
+        <label>First Name: <input type="text" name="fname" size="25"></label><br>
+        <label>Last Name: <input type="text" name="lname" size="25"></label><br>
+        <label>Phone: <input type="text" name="phone" size="25"></label><br>
+        </fieldset>
+        <fieldset>
+                <legend>Pizza</legend>
+                <label>size:</label><br>
+                <input type="radio" name="pizza" value="small"> small<br>
+                <input type="radio" name="pizza" value="mediun">mediun<br> 
+                <input type="radio" name="course" value="large"> large<br>
+                <label>Toppings (check all that apply):</label><br>
+                <input type="checkbox" name="extra cheese" value="1"> Extra Cheese
+                <input type="checkbox" name="pepperoni" value="1"> Pepperoni<br>
+                <input type="checkbox" name="sausage" value="1"> Sausage
+                <input type="checkbox" name="mushrooms" value="1"> Mushrooms<br>
+                <input type="checkbox" name="black olives" value="1"> Black Olives
+                <input type="checkbox" name="green peppers" value="1"> Green peppers<br>
+                <input type="checkbox" name="tomatos" value="1"> Tomatos
+                <input type="checkbox" name="onions" value="1"> Onions
+                <input type="checkbox" name="anchovies" value="1"> Anchovies
+        </fieldset>
+        <button type="submit">Enter my information</button><br>
+        <a href="fastfood.html">Back to Menu</a>
+</body>
+</html>
